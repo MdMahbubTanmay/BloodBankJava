@@ -1,0 +1,49 @@
+.root {
+    -fx-background-color: #1a1b26;
+}
+
+.title-text {
+    -fx-fill: #7aa2f7;
+    -fx-font-family: "Segoe UI Semibold", "Ubuntu";
+    -fx-font-size: 24px;
+}
+
+.label {
+    -fx-text-fill: #a9b1d6;
+    -fx-font-size: 13px;
+}
+
+.text-field, .password-field, .combo-box {
+    -fx-background-color: #24283b;
+    -fx-text-fill: white;
+    -fx-border-color: #414868;
+    -fx-border-radius: 4;
+    -fx-padding: 5;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: white;
+    -fx-background-color: #24283b;
+}
+
+.primary-button {
+    -fx-background-color: #7aa2f7;
+    -fx-text-fill: #1a1b26;
+    -fx-font-weight: bold;
+    -fx-padding: 8 20;
+    -fx-cursor: hand;
+}
+
+.primary-button:hover {
+    -fx-background-color: #89ddff;
+}
+
+.secondary-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #bb9af7;
+    -fx-border-color: #bb9af7;
+}
+
+.status-msg {
+    -fx-text-fill: #f7768e;
+}
